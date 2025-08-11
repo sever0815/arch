@@ -11,3 +11,4 @@ sudo pacman -S --noconfirm power-profiles-daemon
 sudo pacman -S --noconfirm dosfstools
 sudo pacman -S --noconfirm exfatprogs
 sudo pacman -S --noconfirm ntfs-3g
+sudo pacman -S --noconfirm fwupd
