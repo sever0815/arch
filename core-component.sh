@@ -3,12 +3,10 @@ sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=Arch
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 
-sudo pacman -S --noconfirm linux-firmware
-sudo pacman -S --noconfirm alsa-utils
-sudo pacman -S --noconfirm sof-firmware
-sudo pacman -S --noconfirm acpi_call
-sudo pacman -S --noconfirm power-profiles-daemon
-sudo pacman -S --noconfirm dosfstools
-sudo pacman -S --noconfirm exfatprogs
-sudo pacman -S --noconfirm ntfs-3g
-sudo pacman -S --noconfirm fwupd
+sudo pacman -S --noconfirm \
+acpi_call \
+power-profiles-daemon \
+dosfstools \
+exfatprogs \
+ntfs-3g \
+fwupd 
