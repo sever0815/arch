@@ -4,7 +4,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 
 sudo pacman -S --noconfirm \
-acpi_call \
+alsa-utils \
 power-profiles-daemon \
 dosfstools \
 exfatprogs \
