@@ -10,4 +10,5 @@ power-profiles-daemon \
 dosfstools \
 exfatprogs \
 ntfs-3g \
+bash-completion \
 fwupd 
