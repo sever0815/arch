@@ -10,4 +10,7 @@ power-profiles-daemon \
 dosfstools \
 exfatprogs \
 bash-completion \
-fwupd 
+fwupd \
+noto-fonts \
+noto-fonts-cjk \
+noto-fonts-emoji
