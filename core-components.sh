@@ -7,6 +7,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo pacman -S --noconfirm \
 alsa-utils \
 power-profiles-daemon \
+os-prober \
 dosfstools \
 exfatprogs \
 ntfs-3g \
