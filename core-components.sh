@@ -10,6 +10,7 @@ power-profiles-daemon \
 os-prober \
 dosfstools \
 exfatprogs \
+btrfs-progs \
 ntfs-3g \
 bash-completion \
 fwupd \
